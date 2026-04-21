@@ -1,0 +1,11 @@
+
+export default interface FieldDisplayType {
+  NORMAL: 'NORMAL'
+  HIDDEN: 'HIDDEN'
+  READONLY: 'READONLY'
+  DISABLED: 'DISABLED'
+  ENTRY: 'ENTRY'
+  INLINE: 'INLINE'
+  NODISPLAY: 'NODISPLAY'
+}
+

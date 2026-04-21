@@ -1,0 +1,7 @@
+
+export default interface SublistType {
+  EDITOR: 'EDITOR'
+	INLINEEDITOR: 'INLINEEDITOR'
+	LIST: 'LIST'
+	STATICLIST: 'STATICLIST'
+}
