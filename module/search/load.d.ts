@@ -8,7 +8,7 @@ export default interface load {
    */
   (options: {
     id: string
-    type: string
+    type?: string
   } | number): Search
 }
 

@@ -1,5 +1,6 @@
 
 import http from './http/-main'
+import log from './log/-main'
 import query from './query/-main'
 import record from './record/-main'
 import runtime from './runtime/-main'
@@ -15,4 +16,5 @@ export default interface modules {
   'N/search': search
   'N/task': task
   'N/ui/serverWidget': serverWidget
+  'N/log': log
 }
