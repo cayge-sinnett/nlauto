@@ -26,7 +26,7 @@ export default interface mapReduce {
    * @param value
    * @param write
    */
-  map: map
+  map?: map
   /**
    * @param isRestarted
    * @param executionNo
@@ -35,7 +35,7 @@ export default interface mapReduce {
    * @param values
    * @param write
    */
-  reduce: reduce
+  reduce?: reduce
   /**
    * @param isRestarted
    * @param concurrency
@@ -48,5 +48,5 @@ export default interface mapReduce {
    * @param reduceSummary
    * @param output
    */
-  summarize: summarize
+  summarize?: summarize
 }

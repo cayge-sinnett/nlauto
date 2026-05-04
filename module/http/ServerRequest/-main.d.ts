@@ -10,6 +10,7 @@ export default interface ServerRequest {
   headers: any
   clientIpAddress: string
   method: Method[keyof Method]
+  parameters: Record<string, string>
 
   getLineCount: getLineCount
   getSublistValue: getSublistValue

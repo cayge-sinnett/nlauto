@@ -1,4 +1,6 @@
 
-export default interface query {
+import runSuiteQL from './runSuiteQL'
 
+export default interface query {
+  runSuiteQL: runSuiteQL
 }
