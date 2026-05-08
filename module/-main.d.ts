@@ -13,6 +13,7 @@ import task from './task/-main'
 import url from './url/-main'
 import message from './message/-main'
 import file from './file/-main'
+import redirect from './redirect/-main'
 
 export default interface modules {
   'N/email': email
@@ -29,4 +30,5 @@ export default interface modules {
   'N/url': url
   'N/ui/message': message
   'N/file': file
+  'N/redirect': redirect
 }

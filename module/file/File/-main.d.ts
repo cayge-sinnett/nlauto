@@ -1,6 +1,8 @@
 
 import Type from '../Type'
 
+import getContents from './getContents'
+
 export default interface File {
   description: string
   encoding: string
@@ -14,4 +16,6 @@ export default interface File {
   path: string
   size: number
   url: string
+
+  getContents: getContents
 }
